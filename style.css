@@ -63,6 +63,8 @@ a {
 
 .profile-photo {
     width: 200px;
+    height: 200px;
+    object-fit: cover;
 }
 
 .rounded-image {
@@ -71,8 +73,9 @@ a {
 
 .grid-6x6 { 
     display: grid;
+    gap: 20px;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr ;
+    grid-template-rows: 1fr 1fr;
 }
 
 .grid-6x6 li:nth-child(1){ 
