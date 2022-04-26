@@ -142,6 +142,11 @@ nav li, .help-container li {
 nav li a {
     color: white;
     font-family: 'Poppins', sans-serif;
+    transition: color 0.3s ease-in;
+}
+
+nav li a:hover {
+    color: var(--duck-yellow);
 }
 
 nav .logo-container {
